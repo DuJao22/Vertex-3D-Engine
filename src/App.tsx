@@ -58,8 +58,8 @@ export default function App() {
         } else {
           throw new Error(data.error || "Falha na conversão");
         }
-      } else if (contentType && (contentType.includes("model/gltf-binary") || contentType.includes("application/octet-stream"))) {
-        // Se for um arquivo real (vindo do seu novo backend Python)
+      } else if (contentType && (contentType.includes("model/gltf-binary") || contentType.includes("application/octet-stream") || contentType.includes("model/gltf+json"))) {
+        // Se for um arquivo real (vindo do Blender no Render)
         const blob = await response.blob();
         const url = URL.createObjectURL(blob);
         setConvertedUrl(url);

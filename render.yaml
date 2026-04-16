@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vertex-3d
+    runtime: docker
+    plan: free # Ou starter para mais performance
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+    healthCheckPath: /api/health
