@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Box, Download, Cpu, Activity, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { Toaster, toast } from "sonner";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/Button";
+import { Badge } from "@/components/ui/Badge";
 import UploadZone from "@/components/UploadZone";
 import ThreeViewer from "@/components/ThreeViewer";
 
