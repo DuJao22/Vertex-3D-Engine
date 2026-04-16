@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Box, Download, Cpu, Activity, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { Toaster, toast } from "sonner";
-import { Button } from "@/components/ui/button.tsx";
-import { Badge } from "@/components/ui/badge.tsx";
-import UploadZone from "@/components/UploadZone.tsx";
-import ThreeViewer from "@/components/ThreeViewer.tsx";
+import { Button } from "./components/ui/button";
+import { Badge } from "./components/ui/badge";
+import UploadZone from "./components/UploadZone";
+import ThreeViewer from "./components/ThreeViewer";
 
 export default function App() {
   const [isConverting, setIsConverting] = useState(false);

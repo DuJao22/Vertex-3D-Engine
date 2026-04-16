@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import { Upload, Box, CheckCircle2, Loader2, AlertCircle } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button.tsx";
+import { cn } from "../lib/utils";
+import { Button } from "./ui/button";
 
 interface UploadZoneProps {
   onUpload: (file: File) => void;
