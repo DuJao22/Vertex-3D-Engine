@@ -1,0 +1,6 @@
+{
+  "name": "Vertex 3D",
+  "description": "Professional 3D model converter and viewer. Convert .blend files to .glb and preview them in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
